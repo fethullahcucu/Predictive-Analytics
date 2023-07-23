@@ -1,0 +1,21 @@
+
+What is Linear Regression ? 
+Linear regression is a simple and widely used statistical method for modeling the relationship between a dependent variable (target) and one or more independent variables (features). It assumes a linear relationship between the independent variables and the dependent variable, represented by a straight line equation.
+
+The formula is : y = b + m1 * x1 + m2 * x2 + ... + mn * xn
+-y is the dependent variable (the target variable you want to predict).
+-x1, x2, ... are the independent variables (features) in your dataset.
+-m1, m2, ... are the coefficients (also known as weights) associated with each of the independent variables. They represent the change in y for a unit change in each respective.
+-b is the y-intercept, representing the value of y when all the independent variables (x1, x2, ..., xn) are zero.
+
+What kind of cases we can Linear Regression?
+
+1. House Price Prediction:
+Case: Suppose you have a dataset containing information about houses, such as the number of bedrooms, square footage, and location. You want to predict the price of a house based on these features.
+
+Example: You can use linear regression to build a predictive model that takes the features (number of bedrooms, square footage, etc.) as inputs and predicts the house price as the output.
+
+2. Sales Forecasting:
+Case: Imagine you have historical sales data for a retail store, including factors like advertising spending, previous sales, and seasonality. You want to forecast future sales based on these variables.
+
+Example: Linear regression can be used to create a model that predicts future sales by taking advertising spending, previous sales figures, and other relevant factors into account.
